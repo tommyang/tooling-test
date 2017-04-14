@@ -22,7 +22,7 @@ describe('isValidEmail', function() {
 
   var isValidEmail = require('../app/validators.js').isValidEmail;
   it('should return true for valid email addresses', function() {
-    expect(isValidEmail("foursquared@we.rocks.com")).to.be.false;
+    expect(isValidEmail("foursquared@we.rocks.com")).to.be.true;
   });
   it('should return true for valid email addresses with .', function() {
     expect(isValidEmail("group.16@best.group")).to.be.true;
