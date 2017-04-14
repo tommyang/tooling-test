@@ -1,3 +1,7 @@
 language: node_js
 node_js:
   - "node"
+notifications:
+  slack: cse112spring17group16:JhZL3OyKL7ORf2CFvIXCA2p2
+  email:
+    on_success: never
