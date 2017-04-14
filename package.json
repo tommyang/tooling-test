@@ -1,0 +1,15 @@
+{
+  "name": "tooling-test",
+  "version": "1.0.0",
+  "description": "node tooling test",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*"
+  },
+  "author": "Foursquared",
+  "license": "UNLICENSED"
+}
