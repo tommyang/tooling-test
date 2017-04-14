@@ -1,9 +1,9 @@
 language: node_js
 node_js:
-  - "node"
+- node
 notifications:
   slack:
     rooms:
-      - cse112spring17group16:JhZL3OyKL7ORf2CFvIXCA2p2#commits-test
+      secure: s0DQ8fYb4qroDHFU2V3cY6HAbUtq/PZNN09/NanDnS0cP7VA0GmORyZBYjs1ZpDP0ZQCh1PHKmvDptS3AcheLTzqyVBql3In5G6K5ceRb6Tzlt+uPXxsifl2fCEeoW6VNAVTnPUNNeLDFatAkIXZMIe5DESkyokbwBYEnmQ8IWMBk9PvNtO/JW6bfXSNOm6ccZwXBjep109hMd8Rf1pc4g+4d1sYUVfkqIZP1J9eIIU/UEw3Bvjfr6VOL5QjOncXvtwQ9uTToDKt4n0hOQkHEw3pE13NK3e1nOBXDoqqcXIdlGL7djK6pQ01RW8sDcx2ib5Ps2Ex9yV08e2QoI/xH+z12oZFl9Kit6StzwEAQlSGIEFbwbrnAoh+GcoR+PJ+wpa4LaFsFkAH2kIjGPzWKcOZluprZW799lf6GAXl9I1Eygi9mR6QERbzaP1Um2AwwEtW2V1bpMfIpiMTxBfXmnFmxGr7WE6VXWpcJmkU1BGBBweKJ27ahGvB6hkcdEyur5aVX9c4aqNfSB2mOpu3FjIEFcZAV5jLANzizJhdmsaLpM8bS8VdsFWhQrSPM2rBObGtNTPOoeOBO4lFKQ4crREGdx3uiA+kAf0zJbs9F/J6vkMyH78zaFUGvDD489acO/QpqYNET0aAFv+8MFgku0gEW4G3CfNnrql41cEiNXM=
   email:
     on_success: never
