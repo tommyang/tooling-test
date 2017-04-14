@@ -1,7 +1,7 @@
 'use strict';
 
-var expect = require('chai').expect;
-var assert = require('chai').assert;
+const expect = require('chai').expect;
+const assert = require('chai').assert;
 
 describe('isValidEmail', function() {
   before(function() {
@@ -20,7 +20,7 @@ describe('isValidEmail', function() {
     // console.log("hook: test case ends");
   });
 
-  var isValidEmail = require('../app/validators.js').isValidEmail;
+  const isValidEmail = require('../app/validators.js').isValidEmail;
   it('should return true for valid email addresses', function() {
     expect(isValidEmail("foursquared@we.rocks.com")).to.be.true;
   });
